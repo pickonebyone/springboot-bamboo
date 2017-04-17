@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/style.css" type="text/css"/>
+</head>
+<body>
+<table>
+    <#list files as file>
+        <tr>
+            <td>${file.id}
+            </td>
+            <td>${file.fileName}
+            </td>
+        </tr>
+    </#list>
+</table>
+</body>
+</html>
